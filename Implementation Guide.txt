@@ -1,0 +1,95 @@
+*** 1. ADD AN ID ATTRIBUTE AND A CLASS ATTRIBUTE TO AT LEAST 5 DIFFERENT ELEMENTS ***
+
+	***ID Attributes:
+		1) Index.html - <nav id="topLinks">
+		2) Index.html - <h1 id="header">
+		3) Paintings.html - <figcaption id="paintings01">
+		4) Capodimonte.html - <article id="aboutCapodimonte">
+		5) Sam.html - <h3 id="info">
+ 
+	***Class Attributes: 
+		1) Index.html - <div class="mainHeader">
+		2) Index.html - <footer class="footer>
+		3) Paintings.html - <ul style="list-style:none;" class="grid">
+		4) Paintings.html - <figure class="painting01">
+		5) Capodimonte.html - <h2 class="highlights">
+
+*** 2. CSS SELECTORS: USE AT LEAST 5 DIFFERENT CONTEXTUAL SELECTORS IN YOUR CSS FILES ***
+
+	*** Can be found in layout.css ***
+		1) body {...}
+		2) body > header {...}
+		3) body > header > nav {...}
+		4) ul > li > ul {...}
+		5) .mainHeader {...}
+
+*** 3. USE IDs OR CLASSES IN 3 DIFFERENT SELECTORS ***
+
+	*** Can be found in sam_styles.css***
+		1) nav#topLinks a {...}
+		2) img#carpeFin {...}
+		3) p#address {...}
+		4) ul#samExhibits > li {...}
+		
+
+*** 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES ***
+
+	*** Can be fund in Index_styles.css and Sam_styles.css ***
+		1) nav#topLinks a { padding-top: 5px }
+		2) footer {padding-bottom: 1px }
+		3) footer > img { padding-left: 50px }
+		4) img#samInterior { margin-top: 40px }
+		5) article h3 { padding-top: 60px }
+
+*** 5. ONE OF YOUR SITES NEEDS TO BE IMPLEMENTED WITH GRID LAYOUT ***
+	
+	*** Can be found in Paintings.CSS ***
+		1) .grid {...}
+
+*** 6. ONE OF YOUR SITES (OR PART OF IT) NEEDS TO BE IMPLEMENTED WITH FLOAT-BASED LAYOUT ***
+	
+	*** Can be found in Sam_styles.css ***
+		1) img#samInterior { float: left; }
+
+*** 7. USE AT LEAST 5 DIFFERENT PSEUDO-CLASS/ELEMENTS ***
+
+	*** Can be found in Capodimonte_styles.css ***
+		1) nav#topLinks a:link
+		2) nav#topLinks a:visited
+		3) nav#topLinks a:hover	
+		4) nav#topLinks a:active
+		5) article > p:first-of-type::first-letter
+
+*** 8. MAKE FONT COLOR DIFFERENT FOR ALL PAGES ***
+	
+	*** Can be found in all styles.css pages ***
+
+*** 9. USE 2 OR MORE OF ABSOLUTE UNITS AND 2 OR MORE OF RELATIVE UNITS ***
+	
+	*** Can be found in index_styles.css and layout.css ***
+		1) layout.css - ul > li:hover > ul, ul > li > ul:hover { line-height: 1cm; }
+		2) index_styles.css - html { height: 100%; }
+		3) index_styles.css - h1 { font-size: 2.2em; }
+		4) index_styles.css - body > section > p { font-size: 17px; }
+		5) footer { font-size: 1em }
+
+*** 10. USE GOOGLE FONTS ***
+	
+	*** Can be found in Index.html ***
+
+*** 11. HAVE A NAVIGATION MENU TO LINK THE PAGES EACH OTHER ***
+	
+	*** Can be found in all .html files, first implementation within index.html ***
+
+*** 12. MINIMUM OF 3 IMAGES ON EACH PAGE ***
+
+	*** Can be found in all .html files ***
+
+*** 13. FOR AT LEAST ONE PAGE, USE IMAGE FOR ICON ***
+	
+	*** Can be found in Sam_styles.css *** 
+		1) article > ul > li { list-style-image: url(Icon_Palette.png) }
+
+*** 14. HAVE A LAYOUT.CSS TO PUT THE RULES OF LAYOUT ***
+	
+	*** Found in Layout.css ***

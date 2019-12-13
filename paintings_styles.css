@@ -1,0 +1,65 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+nav#topLinks a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav#topLinks a:link, nav#topLinks a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(142, 159, 177)
+}
+
+nav#topLinks a:hover, nav#topLinks a:active {
+    color: white;
+    opacity: 0.8;
+    background-color: rgba(216, 216, 216, 0.24)
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+.painting01>figcaption {
+    padding-top: 30;
+}
+
+body {
+    background-color: slategray;
+    color: ivory;
+    font-family: 'Noticia';
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 1.5em;
+    /* 8. MAKE FONT COLOR DIFFERENT FOR ALL PAGES */
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* ONE OF YOUR SITES NEEDS TO BE IMPLEMENTED WITH GRID LAYOUT */
+
+.grid {
+    display: table;
+    grid-auto-flow: row;
+    grid-gap: 10%;
+}
+
+.grid, .painting01, .painting {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+img {
+    width: 100%;
+    height: 90%;
+    padding: 60px;
+    object-fit: cover;
+}

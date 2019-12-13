@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 4. HAVE A LAYOUT.CSS TO PUT THE RULES OF LAYOUT */ 
+/* 2. CSS SELECTORS: USE AT LEAST 5 DIFFERENT CONTEXTUAL SELECTORS IN YOUR CSS FILES */
+body {
+    margin: 0 auto;
+    height: 150%;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 650px;
+}
+
+body > header {
+    width: 100%;
+}
+
+body > header > nav {
+    display: table;
+    width: 100%;
+}
+
+body > header > nav > ul {
+    display: table-row;
+}
+
+body > header > nav > ul > li {
+    display: table-cell;
+    text-align: center;
+}
+
+body > header > nav > ul > li > a {
+    display: block;
+    width: 100%;
+}
+
+ ul > li > ul {
+    background: rgb(142, 159, 177);
+    visibility: hidden;
+    position: fixed;
+ }
+ ul > li:hover > ul, ul > li > ul:hover {
+    visibility: visible;
+    display: table-row;
+    position: absolute;
+    /*9. USE 2 OR MORE OF ABSOLUTE UNITS AND 2 OR MORE OF RELATIVE UNITS */
+    line-height: 1cm;
+    padding: 0%;
+    text-align: center;
+    min-width: 17.95%;
+ }
+.mainHeader {
+    background-image: url(Img_Titian_Danae.jpg);
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}

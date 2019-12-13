@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html {
+   /*9. USE 2 OR MORE OF ABSOLUTE UNITS AND 2 OR MORE OF RELATIVE UNITS */
+   background-color: slategray;
+   height: 100%;
+}
+
+body {
+   background-color: slategray;
+   /* 8. MAKE FONT COLOR DIFFERENT FOR ALL PAGES */
+   color: ivory;
+   font-family: 'Noticia';
+}
+
+/*9. USE 2 OR MORE OF ABSOLUTE UNITS AND 2 OR MORE OF RELATIVE UNITS */
+body>section>p {
+   font-size: 17px;
+}
+
+/*9. USE 2 OR MORE OF ABSOLUTE UNITS AND 2 OR MORE OF RELATIVE UNITS */
+h1 {
+   font-size: 2.2em;
+   font-family: 'Cinzel Decorative';
+   text-align: center;
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+nav#topLinks a {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+nav#topLinks a:link, nav#topLinks a:visited {
+   color: white;
+   text-decoration: none;
+   background-color: rgb(142, 159, 177)
+}
+
+nav#topLinks a:hover, nav#topLinks a:active {
+   color: white;
+   opacity: 0.8;
+   background-color: rgba(216, 216, 216, 0.24)
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+footer {
+   color: ivory;
+   background-color: slategray;
+   /*9. USE 2 OR MORE OF ABSOLUTE UNITS AND 2 OR MORE OF RELATIVE UNITS */
+   font-size: 1em;
+   text-align: center;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+footer>img {
+   padding-right: 50px;
+   padding-left: 50px;
+}

@@ -1,0 +1,93 @@
+body {
+    background-color: slategray;
+    /* 8. MAKE FONT COLOR DIFFERENT FOR ALL PAGES */
+    color: rgba(28, 66, 41, 0.836);
+    font-family: 'Noticia';
+    padding-bottom: 15px;
+}
+
+/* 3. USE IDs OR CLASSES IN 3 DIFFERENT SELECTORS */
+
+nav#topLinks a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav#topLinks a:link, nav#topLinks a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(142, 159, 177)
+}
+
+nav#topLinks a:hover, nav#topLinks a:active {
+    color: white;
+    opacity: 0.8;
+    background-color: rgba(216, 216, 216, 0.24)
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* 3. USE IDs OR CLASSES IN 3 DIFFERENT SELECTORS */
+
+img#carpeFin {
+    float: right;
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+/* 6. ONE OF YOUR SITES (OR PART OF IT) NEEDS TO BE IMPLEMENTED WITH FLOAT-BASED LAYOUT */
+
+img#samInterior {
+    float: left;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+article h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* 4. USE THE BOX MODEL: APPLY ONE OR MORE MARGIN, PADDING, OR BORDER STYLES */
+
+article h3 {
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+/* 3. USE IDs OR CLASSES IN 3 DIFFERENT SELECTORS */
+
+p#address {
+    text-align: center;
+}
+
+p#hours {
+    text-align: center;
+}
+
+p#price {
+    text-align: center;
+}
+
+/* 3. USE IDs OR CLASSES IN 3 DIFFERENT SELECTORS */
+
+ul#samExhibits>li {
+    padding: 5px 0px;
+}
+
+/* 13. FOR AT LEAST ONE PAGE, USE IMAGE FOR ICON */
+article>ul>li {
+    list-style-image: url(Icon_Palette.png);
+}
+
+article {
+    padding: 15px;
+    font-size: 17px;
+}

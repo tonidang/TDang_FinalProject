@@ -1,0 +1,49 @@
+@charset "utf-8";
+body {
+    background-color: slategray;
+    /* 8. MAKE FONT COLOR DIFFERENT FOR ALL PAGES */
+    color: rgb(255, 227, 68);
+    font-family: 'Noticia';
+}
+
+/* 7. USE AT LEAST 5 DIFFERENT PSEUDO-CLASS/ELEMENTS */
+nav#topLinks a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav#topLinks a:link, nav#topLinks a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(142, 159, 177)
+}
+
+nav#topLinks a:hover, nav#topLinks a:active {
+    color: white;
+    opacity: 0.8;
+    background-color: rgba(216, 216, 216, 0.24)
+}
+
+article {
+    margin-top: 30px;
+    float: left; 
+    width: 384px;
+    font-size: 16.5px;
+}
+
+/* 7. USE AT LEAST 5 DIFFERENT PSEUDO-CLASS/ELEMENTS */
+article>p:first-of-type::first-letter {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    line-height: 1em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+aside { 
+    max-width: 50px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 19px;
+}
